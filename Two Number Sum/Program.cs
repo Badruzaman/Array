@@ -1,7 +1,5 @@
 ﻿
 
-using System.ComponentModel.Design;
-
 int[] arr = { 1, 2, 3, 4, 5, 6 };
 int target = 9;
 int[] result = solution(arr, target);

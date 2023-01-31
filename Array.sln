@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two Number Sum", "Two Number Sum\Two Number Sum.csproj", "{73FA798F-0E99-4872-AB8F-7B3FC9B3D89B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Search", "Binary Search\Binary Search.csproj", "{A4B4F760-5E9E-4090-BD45-5F3075E1F8CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{73FA798F-0E99-4872-AB8F-7B3FC9B3D89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73FA798F-0E99-4872-AB8F-7B3FC9B3D89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73FA798F-0E99-4872-AB8F-7B3FC9B3D89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B4F760-5E9E-4090-BD45-5F3075E1F8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B4F760-5E9E-4090-BD45-5F3075E1F8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B4F760-5E9E-4090-BD45-5F3075E1F8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B4F760-5E9E-4090-BD45-5F3075E1F8CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
