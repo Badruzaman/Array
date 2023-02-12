@@ -2,7 +2,7 @@
 
 int[] arr = { 1, 2, 3, 7, 5 };
 int N = 5;
-int S = 20;
+int S = 12;
 List<int> result = solution(arr, N, S);
 foreach (var item in result)
 {
@@ -23,7 +23,7 @@ List<int> solution(int[] arr, int N, int S)
         }
         else if (current_sum < S)
         {
-            right++;
+            right += 1;
             if (right == arr.Length)
             {
                 break;
@@ -33,7 +33,7 @@ List<int> solution(int[] arr, int N, int S)
         else
         {
             current_sum -= arr[left];
-            left++;
+            left += 1;
         }
     }
    return new List<int> { -1, -1 };
