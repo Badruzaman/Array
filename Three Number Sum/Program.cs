@@ -35,6 +35,7 @@ List<int[]> solution(int[] arr, int targetSum)
     }
     return triplets;
 }
+// time o(n^2) | space o(n)
 List<int[]> solution_01(int[] array, int targetSum)
 {
     List<int[]> triplets = new List<int[]>();
@@ -48,8 +49,8 @@ List<int[]> solution_01(int[] array, int targetSum)
             int currentSum = array[i] + array[left] + array[right];
             if (currentSum == targetSum)
             {
-                int[] triplet = new int[] { array[i], array[left], array[right] };
-                triplets.Add(triplet);
+                int[] newtriplet = new int[] { array[i], array[left], array[right] };
+                triplets.Add(newtriplet);
                 left++;
                 right--;
             }
