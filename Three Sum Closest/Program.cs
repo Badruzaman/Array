@@ -1,12 +1,20 @@
 ﻿
+using System.Net.Http.Json;
+using System.Text.Json.Serialization;
+using Newtonsoft.Json;
+using NUnit.Framework;
+
+HttpClient _httpClient = new HttpClient();
 
 int[] nums = { -1, 2, 1, -4 };
 int target = 1;
 
 int result = solution(nums, target);
+
 Console.WriteLine(result);
 Console.ReadKey();
 
+[Test]
 int solution(int[] nums, int target)
 {
     //[-4, -1, 1, 2]
@@ -37,5 +45,22 @@ int solution(int[] nums, int target)
             }
         }
     }
+    //getDTO();
     return closestSum;
+}
+async void getDTO()
+{
+//    try
+//    {
+//        var state = await _httpClient.GetFromJsonAsync<List<DTOState>>($"http://10.10.83.153:70/api/State/GetStateById?id={2}");
+//    }
+//    catch (Exception ex)
+//    {
+//        throw ex;
+//    }
+}
+public class DTOState
+{
+    public int StateId { get; set; }
+    public string Name { get; set; }
 }
