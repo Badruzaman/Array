@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subarray with given sum", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First Duplicate Value", "First Duplicate Value\First Duplicate Value.csproj", "{33A3CE33-FCE2-4A22-B459-6A1A6EBF8DA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Three Number Sum", "Three Number Sum\Three Number Sum.csproj", "{191C9D5D-6639-40CE-8004-F9A8518976EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Three Number Sum", "Three Number Sum\Three Number Sum.csproj", "{191C9D5D-6639-40CE-8004-F9A8518976EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Three Sum Closest", "Three Sum Closest\Three Sum Closest.csproj", "{08814EB6-5120-455A-9834-A46944AB25DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Three Sum Closest", "Three Sum Closest\Three Sum Closest.csproj", "{08814EB6-5120-455A-9834-A46944AB25DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonConvert", "JsonConvert\JsonConvert.csproj", "{EFA911C2-A67F-4F63-A77D-2CE23C36CA5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{08814EB6-5120-455A-9834-A46944AB25DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08814EB6-5120-455A-9834-A46944AB25DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08814EB6-5120-455A-9834-A46944AB25DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA911C2-A67F-4F63-A77D-2CE23C36CA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA911C2-A67F-4F63-A77D-2CE23C36CA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA911C2-A67F-4F63-A77D-2CE23C36CA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA911C2-A67F-4F63-A77D-2CE23C36CA5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
